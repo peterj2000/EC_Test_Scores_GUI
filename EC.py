@@ -8,13 +8,11 @@ width = 800
 height = 600
 
 def avg_score():
-
     _test1 = float(test1.get())
     _test2 = float(test2.get())
     _test3 = float(test3.get())
 
     average = (_test1+_test2+_test3)/3
-
     average_score.config(text=f"{average}")
 
 
@@ -22,11 +20,14 @@ def avg_score():
 frame = Frame(a)
 frame.pack()
 
+
 frame1 = Frame(a)
 frame1.pack()
 
 frame2 = Frame(a)
 frame2.pack()
+
+
 
 frame3 = Frame(a)
 frame3.pack()
